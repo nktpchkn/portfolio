@@ -18,3 +18,13 @@
          bottom: 0; right: 0;
          background: #e3fc08;
         }
+        table {
+            width: 100%; /* Ширина таблицы */
+            background: white; /* Цвет фона таблицы */
+            color: white; /* Цвет текста */
+            border-spacing: 1px; /* Расстояние между ячейками */
+           }
+           td, th {
+            background: rgb(255, 0, 212); /* Цвет фона ячеек */
+            padding: 5px; /* Поля вокруг текста */
+           }
