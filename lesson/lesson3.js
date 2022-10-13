@@ -37,3 +37,12 @@ typeof('kek')
 typeof 'kek2'
 console.log(typeof 'kek2')
 console.log(typeof 5)
+console.log(typeof true)
+console.log(typeof Symbol('id'))
+console.log(typeof undefined)
+console.log(typeof 100n)
+console.log(typeof console)
+
+//исключения 
+console.log(typeof null) //выводит обьект
+console.log(typeof console.log) //тайп офф от функции выводит несущ тип данных
