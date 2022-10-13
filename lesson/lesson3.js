@@ -24,5 +24,16 @@ const napitok = {
 }
 console.log(napitok)
 // symbol нужен для создания уник ключей обьекта
-const id =
-// bigint
+const id = Symbol('id')
+console.log(id)
+// bigint - большое число
+const bigintnumber = BigInt(10)
+console.log(bigintnumber)
+
+//примитивы простые типы данных - 7 
+//не примитивы (сложные типы данных - 1 обьект )
+//typeof 
+typeof('kek')
+typeof 'kek2'
+console.log(typeof 'kek2')
+console.log(typeof 5)
